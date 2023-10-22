@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Author: Alanna San Luis
+  Project: MatchmakerWeb
+-->
+<head>
+  <title>Matchmaker!</title>
+  <meta charset="ISO-8859-1">
+  <link rel="stylesheet" href="matchmaker.css">
+</head>
+
+<!--Reference for text-shadow:https://www.w3schools.com/css/tryit.asp?filename=trycss3_text-shadow6-->
+<html>
+<body>
+<style>
+ h1 {
+    text-align: center;
+}
+
+h1 {
+  text-shadow: 0 0 3px #6f10bd, 0 0 5px
+  #dd1095;
+}
+p1 {
+  text-shadow: 0 0 3px #6f10bd, 0 0 5px
+  #dd1095;
+
+}
+</html>
+</head>
+</style>
+
+  <h1>Welcome to Matchmaker!</h1>
+  <p1>This Matchmaking Website is designed to see if your compatable to be future best friends! You simply have to answer five questions.</p1>
+  <p1>When it comes to answering each question, strongly agree is 5, just simply agreeing is 4, if neutral then 3, 2 is if you disagree, and strongly disagree is 1.</p1>
+  </p1>
+ 
+  <br /><br /><br />
+ 
+
+</body>
+</html>
+
+</style>
+</head>
+</html>
+
+<html>
+<head>
+<style>
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px
+  border: 5px solid purple;
+}
+</html>
+</head>
+</style>
+
+<!--Reference for html button:https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_test-->
+<!--Reference for html button centering:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_center-flex_btn-->
+<body>
+<div class="center">
+<button type="button"
+onclick="alert('You will find your best friend soon!')">CLICK
+</div>
+</button>
+</body>
+
+
+
+<br><label>Buying books and reading books are considered two different hobbies.</label></br>
+  <select id="q1">
+      <option value="5">Strongly Agree</option>
+      <option value="4">Agree</option>
+      <Option value="3">Neutral</Option>
+      <option value="2">Disagree</option>
+      <option value="1">Strongly Disagree</option>
+  </select>
+   
+
+<br /><br /><br />
+  <br><label>Chocolate is the best candy in the world</label></br>
+    <select id="q2">
+        <option value="5">Strongly Agree</option>
+        <option value="4">Agree</option>
+        <Option value="3">Neutral</Option>
+        <option value="2">Disagree</option>
+        <option value="1">Strongly Disagree</option>
+    </select>
+     
+
+
+    <br /><br /><br />
+    <br><label>Thriller movies are the worst genre.</label></br>
+      <select id="q3">
+          <option value="5">Strongly Agree</option>
+          <option value="4">Agree</option>
+          <Option value="3">Neutral</Option>
+          <option value="2">Disagree</option>
+          <option value="1">Strongly Disagree</option>
+      </select>
+     
+
+      <br /><br /><br />
+    <br><label>Disney and Nickolodeon shows now are trash.</label></br>
+    <select id="q4">
+        <option value="5">Strongly Agree</option>
+        <option value="4">Agree</option>
+        <Option value="3">Neutral</Option>
+        <option value="2">Disagree</option>
+        <option value="1">Strongly Disagree</option>
+    </select>
+     
+
+    <br /><br /><br />
+    <br><label>Arctic monkeys have good music.</label></br>
+      <select id="q5">
+          <option value="5">Strongly Agree</option>
+          <option value="4">Agree</option>
+          <Option value="3">Neutral</Option>
+          <option value="2">Disagree</option>
+          <option value="1">Strongly Disagree</option>
+      </select>
+       
+      
+      <br /><br /><br />
+      <button onclick="CalculateCompatibility()">Calculate Compatibility</button>
+      <p id="Compatibility"></p>
+      <p id="Message"></p>
+      <script src="matchmaker.js"></script>
+    

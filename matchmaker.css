@@ -1,0 +1,26 @@
+label {font-family: cursive;}
+label {color:rgb(31, 2, 2);}
+label {font-size: larger;}
+
+label {
+        text-shadow: 0 0 3px #6f10bd, 0 0 5px
+        #dd1095;
+      
+}
+body {background-image: url("hearty.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p1 {font-family: cursive;}
+p1 {font-size: larger;}
+
+p1 div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px;
+
+}
+
+<div>p1</div>
